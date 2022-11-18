@@ -75,4 +75,4 @@ VALUES
 	,(9,5,200,1700.00)
 	,(10,4,1000,4000.00)
 
-SELECT * FROM tbIntensVenda
+SELECT * FROM tbItensVenda
