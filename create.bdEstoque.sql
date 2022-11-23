@@ -16,7 +16,7 @@ CREATE TABLE tbVenda(
 	codVenda INT PRIMARY KEY IDENTITY (1,1)
 	,dataVenda SMALLDATETIME DEFAULT GETDATE()
 	,valorTotalVenda SMALLMONEY NOT NULL
-	,codClient INT FOREIGN KEY REFERENCES tbCliente(codCliente)
+	,codCliente INT FOREIGN KEY REFERENCES tbCliente(codCliente)
 )
 
 CREATE TABLE tbFornecedor(
