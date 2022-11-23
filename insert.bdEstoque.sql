@@ -42,7 +42,7 @@ VALUES
 
 SELECT * FROM tbProduto
 
-INSERT INTO tbVenda (dataVenda, valorTotalVenda, codClient)
+INSERT INTO tbVenda (dataVenda, valorTotalVenda, codCliente)
 VALUES 
 	('01/02/2014',4500.00,1)
 	,('03/02/2014',3400.00,1)
